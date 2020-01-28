@@ -1,0 +1,20 @@
+package com.hua.gmall.cms.service.impl;
+
+import com.hua.gmall.cms.entity.TopicCategory;
+import com.hua.gmall.cms.mapper.TopicCategoryMapper;
+import com.hua.gmall.cms.service.TopicCategoryService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ * 话题分类表 服务实现类
+ * </p>
+ *
+ * @author Hua
+ * @since 2020-01-27
+ */
+@Service
+public class TopicCategoryServiceImpl extends ServiceImpl<TopicCategoryMapper, TopicCategory> implements TopicCategoryService {
+
+}
