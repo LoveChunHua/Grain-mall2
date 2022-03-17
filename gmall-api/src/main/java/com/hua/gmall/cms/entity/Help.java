@@ -53,6 +53,4 @@ public class Help implements Serializable {
     @TableField("content")
     private String content;
 
-    private String test;
-
 }
